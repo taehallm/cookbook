@@ -1,0 +1,43 @@
+repo_name: taehallm/cookbook
+report_id: 16b7b56b24b0d28c904d70d05b886927
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-28T07:26:40+00:00'
+requested_by: MKhalusova
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taehallm/cookbook
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/taehallm/cookbook/blob/main/.github/workflows/build_documentation.yml
+  detection_source: ".github/workflows/build_documentation.yml"
+  last_updated_by: Mishig Davaadorj
+  last_updated_on: 2024-02-02 15:23:46.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/taehallm/cookbook
+  detection_source: Repo Metadata
